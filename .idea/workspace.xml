@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b66d6ac9-06dc-4035-a957-dc9bb2d9b706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Mayin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -63,21 +62,45 @@
       <option name="presentableId" value="Default" />
       <updated>1578623390852</updated>
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1578626680568</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578626680568</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="242" y="101" key="SettingsEditor" timestamp="1578625334956">
+    <state x="394" y="229" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578628432542">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="242" y="101" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1578625334956" />
+    <state x="394" y="229" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1578628432542" />
+    <state x="300" y="23" key="CommitChangelistDialog2" timestamp="1578626680379">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="300" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1578626680379" />
+    <state x="233" y="129" width="871" height="600" key="DiffContextDialog" timestamp="1578626729916">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="233" y="129" width="871" height="600" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1578626729916" />
+    <state x="242" y="101" key="SettingsEditor" timestamp="1578626924854">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="242" y="101" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1578626924854" />
     <state x="389" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1578626169655">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="389" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1578626169655" />
-    <state x="457" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578626608721">
+    <state x="457" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578628469174">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="457" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1578626608721" />
+    <state x="457" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1578628469174" />
     <state x="127" y="56" key="new project wizard" timestamp="1578623421153">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
