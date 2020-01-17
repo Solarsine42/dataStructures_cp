@@ -10,12 +10,21 @@ public class Algorithm {
         String letters = "abcde";
         String[] arr1 = {"a", "b", "c"};
         String[] arr2 = {"d", "e", "f"};
-        String word = "hello";
+        String word = "mellow";
+        String mirror = "hohhoh";
 
         ArrayList<String> words = new ArrayList<>();
         words.add("quick");
         words.add("brown");
         words.add("fox");
+
+        ArrayList<Integer> years = new ArrayList<>();
+        years.add(2014);
+        years.add(2015);
+
+        ArrayList<String> animals = new ArrayList<>();
+        animals.add("Horse");
+        animals.add("Sheep");
 
         //main calls to sout
         int[] result = doubleNums(list);
@@ -35,6 +44,18 @@ public class Algorithm {
 
         HashMap<String, Integer> flipArrayResult = flipArray(words);
         System.out.println("6. flipArray: "+flipArrayResult);
+
+        HashMap<Integer, String> arraysToObjectResult = arraysToObject(years, animals);
+        System.out.println("7. arraysToObject: "+arraysToObjectResult);
+
+        String reverseStringResult = reverseString(word);
+        System.out.println("8. reverseString: "+reverseStringResult);
+
+        boolean repeatsResult = repeats(mirror);
+        System.out.println("9. repeats: "+repeatsResult);
+
+        String everyOtherResult = everyOther(word);
+        System.out.println("10. everyOther: "+everyOtherResult);
     }
 
     public static int[] doubleNums(int[] arr){
@@ -86,6 +107,49 @@ public class Algorithm {
         }
         return flipArrayResult;
     };
+
+    public static HashMap<Integer, String> arraysToObject(ArrayList<Integer> years, ArrayList<String> animals){
+        HashMap<Integer, String> arraysToObjectResult = new HashMap<>();
+
+        for(int i = 0; i < animals.size(); i++){
+            arraysToObjectResult.put(years.get(i), animals.get(i));
+        }
+        return arraysToObjectResult;
+    }
+
+    public static String reverseString(String word){
+        String reverseStringResult = "";
+
+        for(int i = word.length()-1; i >= 0; i--){
+            reverseStringResult += String.valueOf(word.charAt(i));
+        }
+        return reverseStringResult;
+    }
+
+    public static boolean repeats(String mirror){
+        boolean repeatsResult = false;
+
+        if(mirror.length() % 2 == 0){
+            for(int i = 0; i<mirror.length()/2; i++){
+                if(String.valueOf(mirror.charAt(i)).equals(String.valueOf(mirror.charAt((mirror.length()/2)+i)))){
+                    repeatsResult = true;
+                }
+            }
+            return repeatsResult;
+        }
+        return repeatsResult;
+    }
+
+    public static String everyOther(String word){
+        String everyOtherResult = "";
+
+        for(int i = 0; i < word.length(); i++){
+            if(i % 2 == 0){
+                everyOtherResult += String.valueOf(word.charAt(i));
+            }
+        }
+        return everyOtherResult;
+    }
 
 
 }
